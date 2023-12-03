@@ -56,19 +56,19 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GoogleAnalyticsPage(),
+      home: const GoogleCrashlyticsPage(),
     );
   }
 }
 
-class GoogleAnalyticsPage extends StatefulWidget {
-  const GoogleAnalyticsPage({Key? key}) : super(key: key);
+class GoogleCrashlyticsPage extends StatefulWidget {
+  const GoogleCrashlyticsPage({Key? key}) : super(key: key);
 
   @override
-  State<GoogleAnalyticsPage> createState() => _GoogleAnalyticsPageState();
+  State<GoogleCrashlyticsPage> createState() => _GoogleCrashlyticsPageState();
 }
 
-class _GoogleAnalyticsPageState extends State<GoogleAnalyticsPage> {
+class _GoogleCrashlyticsPageState extends State<GoogleCrashlyticsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
